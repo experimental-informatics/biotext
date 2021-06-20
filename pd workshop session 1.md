@@ -42,7 +42,7 @@ As an FLOSS project, Pure Data is a community effort and is continuously being e
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11" align="left" width="300" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11" align="left" />
 
 ---
 
