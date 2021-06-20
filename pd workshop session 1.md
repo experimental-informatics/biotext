@@ -1,6 +1,8 @@
 <img src"https://github.com/experimental-informatics/biotext/blob/master/images//images/write-tmka-in-pd-1024x595.png"/>
 
-<img src"https://github.com/experimental-informatics/biotext/blob/master/images/write-tmka-in-pd-1024x595.png"/>
+<img src="https://github.com/experimental-informatics/biotext/blob/master/images/write-tmka-in-pd-1024x595.png"/>
+
+<img src="https://raw.githubusercontent.com/YourUserAccount/YourProject/master/DirectoryPath/Example.png?raw=true" />
 
 # README
 
