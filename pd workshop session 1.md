@@ -42,7 +42,7 @@ As an FLOSS project, Pure Data is a community effort and is continuously being e
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11" align="left" style="zoom:55%;" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11" align="left" width="300" />
 
 ---
 
@@ -76,7 +76,7 @@ To make audio playable on a Compact Disc, the computer must make 44,100 measurem
 
 *The number we use to record each sample has a value between -1 and +1, which would represent the greatest range of movement of our theoretical loudspeaker, with 0 representing the speaker at rest in the middle position.*
 
-<img src="./images/puredata-whatisdigitalaudio-waveform-en.png" alt="waveform" style="zoom:80%;" />
+<img src="./images/puredata-whatisdigitalaudio-waveform-en.png" alt="waveform"  width="400"/>
 
 *Graphical depiction of a sine wave, which crosses zero from the negative to the positive domain.*
 
@@ -86,29 +86,29 @@ When we ask Pd to play back this sound, it will read the samples back and send t
 
 ## getting to know the interface
 
-<img src="./images/image-20210618120112061.png" alt="image-20210618120112061" style="zoom:53%;" />
+<img src="./images/image-20210618120112061.png" alt="image-20210618120112061" width="300"/>
 
 ## the help browser
 
-<img src="./images/image-20210618120128719.png" alt="image-20210618120128719" style="zoom:53%;" /><img src="./images/image-20210618120229695.png" alt="image-20210618120229695" style="zoom:43%;" />
+<img src="./images/image-20210618120128719.png" alt="image-20210618120128719" width="300"/><img src="./images/image-20210618120229695.png" alt="image-20210618120229695" style="zoom:43%;" />
 
 ### with what we are patching?
 
-<img src="./images/image-20210618120659646.png" alt="image-20210618120659646" style="zoom:63%;" />
+<img src="./images/image-20210618120659646.png" alt="image-20210618120659646" width="350" />
 
 Pd has also a number of GUI objects to graphically control the patch and improve its visual experience.
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-41-14.png" alt="image-20210618120726148" style="zoom:73%;" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-41-14.png" alt="image-20210618120726148" width="400" />
 
 ### how we patch?
 
-<img src="./images/image-20210618120159633.png" alt="image-20210618120159633" align="left" style="zoom:53%;" /><img src="./images/image-20210618120250028.png" alt="image-20210618120250028" style="zoom:70%;" />
+<img src="./images/image-20210618120159633.png" alt="image-20210618120159633" align="left" width="300"/><img src="./images/image-20210618120250028.png" alt="image-20210618120250028" style="zoom:70%;" />
 
 
 
 ### we have 2 different modes of working...:
 
-<img src="./images/image-20210618120401147.png" alt="image-20210618120401147" style="zoom:53%;" />... the *edit mode* and the *play (excecute) mode*
+<img src="./images/image-20210618120401147.png" alt="image-20210618120401147" width="300"/>... the *edit mode* and the *play (excecute) mode*
 
 ### objects we need today
 
@@ -126,11 +126,11 @@ Pd has also a number of GUI objects to graphically control the patch and improve
 
 ### our first program (patch)
 
-<img src="./images/image-20210620171044627.png" alt="image-20210620171044627" style="zoom:40%;" /><img src="./images/image-20210620171130727.png" alt="image-20210620171130727" style="zoom:40%;" /><img src="./images/image-20210620171213897.png" alt="image-20210620171213897" style="zoom:40%;" /><img src="./images/Bildschirmfoto_2021-06-20_17-13-48.png" style="zoom:40%;" />
+<img src="./images/image-20210620171044627.png" alt="image-20210620171044627" width="250" /><img src="./images/image-20210620171130727.png" alt="image-20210620171130727" width="250" /><img src="./images/image-20210620171213897.png" alt="image-20210620171213897" width="250" /><img src="./images/Bildschirmfoto_2021-06-20_17-13-48.png" width="250" />
 
 ### our second program (patch)
 
-<img src="./images/image-20210620172020612.png" alt="image-20210620172020612" style="zoom:40%;" /><img src="./images/image-20210620172046642.png" alt="image-20210620172046642" style="zoom:40%;" /><img src="./images/image-20210620172111163.png" alt="image-20210620172111163" style="zoom:40%;" /><img src="./images/image-20210620172130905.png" alt="image-20210620172130905" style="zoom:40%;" />
+<img src="./images/image-20210620172020612.png" alt="image-20210620172020612" width="250" /><img src="./images/image-20210620172046642.png" alt="image-20210620172046642" width="250" /><img src="./images/image-20210620172111163.png" alt="image-20210620172111163" width="250" /><img src="./images/image-20210620172130905.png" alt="image-20210620172130905" width="250" />
 
 ## example works, based on that program
 
@@ -201,7 +201,7 @@ some more Books & helper files:
 
 #### 0. study and experiment with the following 6 objects:
 
-<img src="./images/image-20210620191914732.png" alt="image-20210620191914732" style="zoom:40%;" /> < your first math object ^_*)
+<img src="./images/image-20210620191914732.png" alt="image-20210620191914732" width="250" /> < your first math object ^_*)
 
 <img src="./images/image-20210620191157312.png" alt="image-20210620191157312" style="zoom:80%;" /> 
 
