@@ -1,4 +1,4 @@
-<img src"./images/write-tmka-in-pd-1024x595.png" alt"img" style"zoom:80%;" />
+<img src"images/write-tmka-in-pd-1024x595.png" alt"img" style"zoom:80%;" />
 
 # README
 
