@@ -8,7 +8,7 @@ Getting Pd from: http://msp.ucsd.edu/software.html
 
 or from the Pure Data community site: https://puredata.info
 
-<img src="./images/image-20210620175122092.png" alt="image-20210620175122092" align="left" style="zoom:50%;" />
+<img src="./images/image-20210620175122092.png" alt="image-20210620175122092" align="left" width="300" />
 
 Installation instructions are in INSTALL.txt and the HTML documentation at: http://msp.ucsd.edu/Pd_documentation/index.htm
 
@@ -30,11 +30,11 @@ runs on anything from personal computers to embedded devices (ie [Raspberry Pi](
 
 Pd is commonly used for live music performance, VeeJaying, sound effects, composition, audio analysis, interfacing with sensors, using cameras, controlling robots or even interacting with websites. Because all of these various media are handled as digital data within the program, many fascinating opportunities for cross-synthesis between them exist. Sound can be used to manipulate video, which could then be streamed over the internet to another computer which might analyze that video and use it to control a motor-driven installation.
 
-<img src="./images/Pd_uebersicht.jpg" alt="Pd uebersicht.jpg" align="left" style="zoom:50%;" />
+<img src="./images/Pd_uebersicht.jpg" alt="Pd uebersicht.jpg" align="left" width="300" />
 
 Programming with Pd is a interaction that is pretty close to the experience of manipulating things in the physical world. The most basic unit of functionality is a box, and the program is formed by connecting these boxes together into diagrams that both represent the flow of data while actually performing the operations mapped out in the diagram. The program itself is always running, there is no separation between writing the program and running the program, and each action takes effect the moment it is completed.
 
-<img src="./images/puredata-whatisrtp-patch_2-en.png" alt="patch_2" style="zoom:50%;" /><img src="./images/puredata-whatisrtp-patch_1-en.png" alt="patch_1" style="zoom:50%;" />
+<img src="./images/puredata-whatisrtp-patch_2-en.png" alt="patch_2" width="300" /><img src="./images/puredata-whatisrtp-patch_1-en.png" alt="patch_1" width="300" />
 
 As an FLOSS project, Pure Data is a community effort and is continuously being expanded to include more functions. The community around Pure Data have created additional functions (called "externals" or "external libraries") which are used for a wide variety of other purposes, such as video processing, the playback and streaming of MP3s or video, the manipulation and display of 3-dimensional objects and the modeling of virtual physical objects. There is a wide range of external libraries available which give Pure Data additional features. Just about any kind of programming is feasible using Pure Data as long as there are externals libraries which provide the most basic units of functionality required.
 
@@ -52,7 +52,7 @@ As an FLOSS project, Pure Data is a community effort and is continuously being e
 
 The diagram is showing how sound travels through your computer. The "Analog to Digital" & "Digital to Analog Conversion" is done by the soundcard. The "Digital System" in our case is *Pure Data.*
 
-<img src="./images/puredata-whatisdigitalaudio-analogue_digital_conversion-en.png" alt="Analogue_Digital_Conversion" style="zoom:50%;" /> *Source: [ http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png](http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png)*
+<img src="./images/puredata-whatisdigitalaudio-analogue_digital_conversion-en.png" alt="Analogue_Digital_Conversion" width="300" /> *Source: [ http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png](http://en.wikipedia.org/wiki/Image:Analogue_Digital_Conversion.png)*
 
 ### Frequency and Gain 
 
@@ -60,7 +60,7 @@ The diagram is showing how sound travels through your computer. The "Analog to D
 
 First, imagine a loudspeaker. It moves the air in front of it and makes a sound. The membrane of the speaker must vibrate from it's center position (at rest) backwards and forwards. The number of times per second it vibrates makes the **frequency** (the note, tone or pitch) of the sound you hear, and the distance it travels from it's resting point determines the **gain** (the volume or loudness) of the sound. Normally, we measure frequency in **Hertz** (Hz) and loudness or gain in **Decibels** (dB).
 
-<img src="./images/puredata-whatisdigitalaudio-speaker-en.png" alt="speaker" style="zoom:50%;" /> 
+<img src="./images/puredata-whatisdigitalaudio-speaker-en.png" alt="speaker" width="300" /> 
 
 A microphone works in reverse - vibrations in the air cause its membrane to vibrate. The microphone turns these acoustic vibrations into an electrical current. If you plug this microphone into your computer's soundcard and start recording, the soundcard makes thousands of measurements of this electric current per second and records them as numbers.
 
@@ -68,7 +68,7 @@ A microphone works in reverse - vibrations in the air cause its membrane to vibr
 
 To make audio playable on a Compact Disc, the computer must make 44,100 measurements (called **samples**) per second, and record each one as a **16-bit number**. One **bit** is a piece of information which is either 0 or 1, and if there are 16 bits together to make one sample then there are 216 (or 2x2x2x2x2x2x2x2x2x2x2x2x2x2x2x2 = 65,536) possible values that each sample could have. Thus, we can say that CD-quality audio has a **sampling rate** of 44,100 Hz and a **bit-depth** or **word length** of 16 bits. In contrast, professional music recordings are usually made at 24-bit first to preserve the highest amount of detail before being mixed down to 16-bit for CD, and older computer games were famous for having a distinctively rough 8-bit sound. By increasing the sampling rate, we are able to record higher sonic frequencies, and by increasing the bit-depth or word length we are able to use a greater **dynamic range** (the difference between the quietest and the loudest sounds it is possible to record and play).
 
-<img src="./images/puredata-whatisdigitalaudio-pcm-en.png" alt="Pcm" style="zoom:50%;" />
+<img src="./images/puredata-whatisdigitalaudio-pcm-en.png" alt="Pcm" width="300" />
 
 
 
@@ -215,25 +215,25 @@ some more Books & helper files:
 
 #### 1. build a metronom
 
-<img src="./images/image-20210620190327510.png" alt="image-20210620190327510" style="zoom:50%;" />
+<img src="./images/image-20210620190327510.png" alt="image-20210620190327510" width="300" />
 
 #### 2. build a counter
 
-<img src="./images/image-20210620190423991.png" alt="image-20210620190423991" style="zoom:50%;" />
+<img src="./images/image-20210620190423991.png" alt="image-20210620190423991" width="300" />
 
 
 
 #### 3. build a modulo counter
 
-<img src="./images/image-20210620190536457.png" alt="image-20210620190536457" style="zoom:50%;" />
+<img src="./images/image-20210620190536457.png" alt="image-20210620190536457" width="300" />
 
 #### 4. stop at a specific number
 
-<img src="./images/image-20210620190903086.png" alt="image-20210620190903086" style="zoom:50%;" />
+<img src="./images/image-20210620190903086.png" alt="image-20210620190903086" width="300" />
 
 #### 5. build a simple 8-tone sequenzer 
 
-<img src="./images/image-20210620190122063.png" alt="image-20210620190122063" style="zoom:50%;" />
+<img src="./images/image-20210620190122063.png" alt="image-20210620190122063" width="300" />
 
 #### 6. expand your sequenzer (optional)
 
