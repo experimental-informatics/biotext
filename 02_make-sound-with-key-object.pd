@@ -1,0 +1,14 @@
+#N canvas 202 198 889 710 36;
+#X obj 112 223 osc~ 440;
+#X obj 111 315 dac~;
+#X msg 25 32 0;
+#X obj 112 30 key;
+#X obj 197 30 keyname;
+#X floatatom 134 99 5 0 0 0 - - -, f 5;
+#X symbolatom 304 96 10 0 0 0 - - -, f 10;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 0 0;
+#X connect 3 0 5 0;
+#X connect 3 0 0 0;
+#X connect 4 1 6 0;
