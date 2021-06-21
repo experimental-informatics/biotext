@@ -1,6 +1,3 @@
-# biotext
-Notebooks from the Seminar:
-
 # Biotext < SoSe 2021
 
 Georg Trogemann, Christian Heck, Mattis Kuhn
@@ -13,7 +10,7 @@ Thursday weekly 10:00 - 13:00
 
 Academy of Media Arts Cologne
 
-Email: g.trogemann@khm.de, c.heck@khm.de, m.kuhn@khm.de
+Email: ground-zero@khm.de
 
 ## Description
 
