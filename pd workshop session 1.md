@@ -42,7 +42,7 @@ As an FLOSS project, Pure Data is a community effort and is continuously being e
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11" align="left" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  width="800" align="left" />
 
 ---
 
@@ -76,7 +76,7 @@ To make audio playable on a Compact Disc, the computer must make 44,100 measurem
 
 *The number we use to record each sample has a value between -1 and +1, which would represent the greatest range of movement of our theoretical loudspeaker, with 0 representing the speaker at rest in the middle position.*
 
-<img src="./images/puredata-whatisdigitalaudio-waveform-en.png" alt="waveform"  width="400"/>
+<img src="./images/puredata-whatisdigitalaudio-waveform-en.png" alt="waveform"  width="300"/>
 
 *Graphical depiction of a sine wave, which crosses zero from the negative to the positive domain.*
 
@@ -90,11 +90,11 @@ When we ask Pd to play back this sound, it will read the samples back and send t
 
 ## the help browser
 
-<img src="./images/image-20210618120128719.png" alt="image-20210618120128719" width="300"/><img src="./images/image-20210618120229695.png" alt="image-20210618120229695" style="zoom:43%;" />
+<img src="./images/image-20210618120128719.png" alt="image-20210618120128719" width="300"/><img src="./images/image-20210618120229695.png" alt="image-20210618120229695" width="400" />
 
 ### with what we are patching?
 
-<img src="./images/image-20210618120659646.png" alt="image-20210618120659646" width="350" />
+<img src="./images/image-20210618120659646.png" alt="image-20210618120659646" width="500" />
 
 Pd has also a number of GUI objects to graphically control the patch and improve its visual experience.
 
@@ -102,7 +102,7 @@ Pd has also a number of GUI objects to graphically control the patch and improve
 
 ### how we patch?
 
-<img src="./images/image-20210618120159633.png" alt="image-20210618120159633" align="left" width="300"/><img src="./images/image-20210618120250028.png" alt="image-20210618120250028" style="zoom:70%;" />
+<img src="./images/image-20210618120159633.png" alt="image-20210618120159633" align="left" width="350"/><img src="./images/image-20210618120250028.png" alt="image-20210618120250028" width="500"/>
 
 
 
@@ -201,7 +201,7 @@ some more Books & helper files:
 
 #### 0. study and experiment with the following 6 objects:
 
-<img src="./images/image-20210620191914732.png" alt="image-20210620191914732" width="250" /> < your first math object ^_*)
+<img src="./images/image-20210620191914732.png" alt="image-20210620191914732" width="50" /> < your first math object ^_*)
 
 <img src="./images/image-20210620191157312.png" alt="image-20210620191157312" style="zoom:80%;" /> 
 
@@ -215,17 +215,17 @@ some more Books & helper files:
 
 #### 1. build a metronom
 
-<img src="./images/image-20210620190327510.png" alt="image-20210620190327510" width="300" />
+<img src="./images/image-20210620190327510.png" alt="image-20210620190327510" width="200" />
 
 #### 2. build a counter
 
-<img src="./images/image-20210620190423991.png" alt="image-20210620190423991" width="300" />
+<img src="./images/image-20210620190423991.png" alt="image-20210620190423991" width="350" />
 
 
 
 #### 3. build a modulo counter
 
-<img src="./images/image-20210620190536457.png" alt="image-20210620190536457" width="300" />
+<img src="./images/image-20210620190536457.png" alt="image-20210620190536457" width="150" />
 
 #### 4. stop at a specific number
 
