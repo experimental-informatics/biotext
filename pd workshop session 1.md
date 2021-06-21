@@ -20,13 +20,13 @@ Programming with Pd is a interaction that is pretty close to the experience of m
 
 <img src="./images/puredata-whatisrtp-patch_2-en.png" alt="patch_2" width="300" /><img src="./images/puredata-whatisrtp-patch_1-en.png" alt="patch_1" width="300" />
 
-As an FLOSS project, Pure Data is a community effort and is continuously being expanded to include more functions. The community around Pure Data have created additional functions (called "externals" or "external libraries") which are used for a wide variety of other purposes, such as video processing, the playback and streaming of MP3s or video, the manipulation and display of 3-dimensional objects and the modeling of virtual physical objects. There is a wide range of external libraries available which give Pure Data additional features. Just about any kind of programming is feasible using Pure Data as long as there are externals libraries which provide the most basic units of functionality required.
+As an project, Pure Data is a community effort and is continuously being expanded to include more functions. The community around Pure Data have created additional functions (called "externals" or "external libraries") which are used for a wide variety of other purposes, such as video processing, the playback and streaming of MP3s or video, the manipulation and display of 3-dimensional objects and the modeling of virtual physical objects. There is a wide range of external libraries available which give Pure Data additional features. Just about any kind of programming is feasible using Pure Data as long as there are externals libraries which provide the most basic units of functionality required.
 
 # what is FLOSS?
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  width="750" align="left" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  width="780" align="left" />
 
 ---
 
