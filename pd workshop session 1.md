@@ -1,5 +1,40 @@
 <img src="./images/write-tmka-in-pd-1024x595.png" alt="img" style="zoom:80%;" />
 
+- [what is pure data?](#what-is-pure-data-)
+- [what is FLOSS?](#what-is-floss-)
+- [what is digital audio?](#what-is-digital-audio-)
+    + [ADC / DAC](#adc---dac)
+    + [Frequency and Gain](#frequency-and-gain)
+    + [Sampling Rate and Bit Depth](#sampling-rate-and-bit-depth)
+- [patching](#patching)
+  * [getting to know the interface](#getting-to-know-the-interface)
+  * [the help browser](#the-help-browser)
+    + [with what we are patching?](#with-what-we-are-patching-)
+    + [how we patch?](#how-we-patch-)
+    + [we have 2 different modes of working...:](#we-have-2-different-modes-of-working-)
+    + [objects we need today](#objects-we-need-today)
+    + [what else do we need?](#what-else-do-we-need-)
+      - [the ASCII-Table:<img src="./images/image-20210620170353842.png" alt="image-20210620170353842" style="zoom:67%;" />](#the-ascii-table--img-src---images-image-20210620170353842png--alt--image-20210620170353842--style--zoom-67------)
+    + [our first program (patch)](#our-first-program--patch-)
+    + [our second program (patch)](#our-second-program--patch-)
+  * [example works, based on that program](#example-works--based-on-that-program)
+    + [ascii-piano (Biotext_Semesterapparat/pd-workshop tmka/keyboardpiano.pd)](#ascii-piano--biotext-semesterapparat-pd-workshop-tmka-keyboardpianopd-)
+    + [article_5 (Biotext_Semesterapparat/pd-workshop tmka/article-5/article_5.pd)](#article-5--biotext-semesterapparat-pd-workshop-tmka-article-5-article-5pd-)
+- [little helpers...:](#little-helpers-)
+  * [Documentation and resources](#documentation-and-resources)
+- [Homework for next pd-workshop-session](#homework-for-next-pd-workshop-session)
+  * [coding a first sequenzer](#coding-a-first-sequenzer)
+      - [0. study and experiment with the following 6 objects:](#0-study-and-experiment-with-the-following-6-objects-)
+      - [1. build a metronom](#1-build-a-metronom)
+      - [2. build a counter](#2-build-a-counter)
+      - [3. build a modulo counter](#3-build-a-modulo-counter)
+      - [4. stop at a specific number](#4-stop-at-a-specific-number)
+      - [5. build a simple 8-tone sequenzer](#5-build-a-simple-8-tone-sequenzer)
+      - [6. expand your sequenzer (optional)](#6-expand-your-sequenzer--optional-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 Pd, a free real-time computer music system.
 
 Getting Pd from: http://msp.ucsd.edu/software.html or from the Pure Data community site: https://puredata.info
@@ -22,16 +57,14 @@ Programming with Pd is a interaction that is pretty close to the experience of m
 
 As an project, Pure Data is a community effort and is continuously being expanded to include more functions. The community around Pure Data have created additional functions (called "externals" or "external libraries") which are used for a wide variety of other purposes, such as video processing, the playback and streaming of MP3s or video, the manipulation and display of 3-dimensional objects and the modeling of virtual physical objects. There is a wide range of external libraries available which give Pure Data additional features. Just about any kind of programming is feasible using Pure Data as long as there are externals libraries which provide the most basic units of functionality required.
 
+----
+
 # what is FLOSS?
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
 ----
 
 <img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  />
-
-<img src="./images/"/>
-
-
 
 ----
 
@@ -71,15 +104,19 @@ To make audio playable on a Compact Disc, the computer must make 44,100 measurem
 
 When we ask Pd to play back this sound, it will read the samples back and send them to the soundcard. The soundcard then converts these numbers to an electrical current which causes the loudspeaker to vibrate the air in front of it and make a sound we can hear.
 
+----
+
 # patching
 
 ## getting to know the interface
 
 <img src="./images/image-20210618120112061.png" alt="image-20210618120112061" width="300"/>
 
+
 ## the help browser
 
 <img src="./images/image-20210618120128719.png" alt="image-20210618120128719" width="300"/><img src="./images/image-20210618120229695.png" alt="image-20210618120229695" width="400" />
+
 
 ### with what we are patching?
 
@@ -89,15 +126,16 @@ Pd has also a number of GUI objects to graphically control the patch and improve
 
 <img src="./images/Bildschirmfoto_2021-06-20_16-41-14.png" alt="image-20210618120726148" width="400" />
 
+
 ### how we patch?
 
 <img src="./images/image-20210618120159633.png" alt="image-20210618120159633" align="left" width="350"/><img src="./images/image-20210618120250028.png" alt="image-20210618120250028" width="500"/>
 
 
-
 ### we have 2 different modes of working...:
 
 <img src="./images/image-20210618120401147.png" alt="image-20210618120401147" width="300"/>... the *edit mode* and the *play (excecute) mode*
+
 
 ### objects we need today
 
@@ -109,25 +147,33 @@ Pd has also a number of GUI objects to graphically control the patch and improve
 
 ![image-20210620170153359](./images/image-20210620170153359.png) 
 
+
 ### what else do we need?
 
+
 #### the ASCII-Table:<img src="./images/image-20210620170353842.png" alt="image-20210620170353842" style="zoom:67%;" />
+
 
 ### our first program (patch)
 
 <img src="./images/image-20210620171044627.png" alt="image-20210620171044627" width="250" /><img src="./images/image-20210620171130727.png" alt="image-20210620171130727" width="250" /><img src="./images/image-20210620171213897.png" alt="image-20210620171213897" width="250" /><img src="./images/Bildschirmfoto_2021-06-20_17-13-48.png" width="250" />
 
+
 ### our second program (patch)
 
 <img src="./images/image-20210620172020612.png" alt="image-20210620172020612" width="250" /><img src="./images/image-20210620172046642.png" alt="image-20210620172046642" width="250" /><img src="./images/image-20210620172111163.png" alt="image-20210620172111163" width="250" /><img src="./images/image-20210620172130905.png" alt="image-20210620172130905" width="250" />
+
+
 
 ## example works, based on that program
 
 **you'll find the codes into the Biotext-Semesterapparat**
 
+
 ### ascii-piano (Biotext_Semesterapparat/pd-workshop tmka/keyboardpiano.pd)
 
 ![image-20210620183302658](./images/image-20210620183302658.png)
+
 
 ### article_5 (Biotext_Semesterapparat/pd-workshop tmka/article-5/article_5.pd)
 
@@ -160,8 +206,7 @@ the pd-patch, you'll find here:
   * there is no propper documentation in it in how to connect to arduino and musce accelerator etc.
 
 
-
----
+----
 
 # little helpers...: 
 
@@ -182,7 +227,7 @@ some more Books & helper files:
 * multimedia programming in pd https://curiousart.org/digital_proj/pd_eBook.pdf von bryan wc chung
 * floss manuals: https://en.flossmanuals.net/pure-data/_full/
 
----
+----
 
 # Homework for next pd-workshop-session 
 
