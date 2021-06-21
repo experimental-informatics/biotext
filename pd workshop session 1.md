@@ -16,6 +16,9 @@ Getting Pd from: http://msp.ucsd.edu/software.html or from the Pure Data communi
 
 # what is pure data?
 
+
+
+
 **[Pure Data](https://puredata.info)** (or Pd) is a real-time graphical programming environment for audio, video, and graphical processing. 
 
 runs on anything from personal computers to embedded devices (ie [Raspberry Pi](http://puredata.info/docs/raspberry-pi)) and smartphones (via [libpd](http://puredata.info/downloads/libpd), [DroidParty (Android)](http://puredata.info/downloads/pddroidparty), and [PdParty (iOS)](http://github.com/danomatika/PdParty). It is a major branch of the family of patcher programming languages known as Max (Max/FTS, ISPW Max, [Max/MSP](http://cycling74.com/), etc), originally developed by Miller Puckette (http://crca.ucsd.edu/~msp/) at [IRCAM](http://www.ircam.fr/). Pd includes the work of many developers (http://puredata.info/), making the whole package very much a community effort.
