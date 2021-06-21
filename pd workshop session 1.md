@@ -1,26 +1,16 @@
 <img src="./images/write-tmka-in-pd-1024x595.png" alt="img" style="zoom:80%;" />
 
-# README
-
 Pd, a free real-time computer music system.
 
-Getting Pd from: http://msp.ucsd.edu/software.html
-
-or from the Pure Data community site: https://puredata.info
+Getting Pd from: http://msp.ucsd.edu/software.html or from the Pure Data community site: https://puredata.info
 
 <img src="./images/image-20210620175122092.png" alt="image-20210620175122092" align="left" width="300" />
-
-Installation instructions are in INSTALL.txt and the HTML documentation at: http://msp.ucsd.edu/Pd_documentation/index.htm
-
-If you download and unpack Pd, you will also find the HTML documentation locally in the file "doc/1.manual/index.htm".
 
 **Linux** (or FreeBSD): In some Linux installations you can download Pd via "apt-get install puredata" or "dnf install puredata"; otherwise you can download the source and compile it as described in INSTALL.txt.
 
 **Apple macOS**: Pd binaries are distributed as a "tar.gz" file. The web browser will probably download this archive into your Downloads folder. Double click to extract the archived Mac app which you can then run and/or drag into your Applications folder.
 
 **Microsoft Windows**: Pd binaries are distributed as a self-extracting executable or as a "zip" file.
-
-For any questions about Pd or if you wish to be notified of releases, you can browse and/or join the Pd mailing list: https://lists.puredata.info/listinfo
 
 # what is pure data?
 
@@ -238,10 +228,3 @@ some more Books & helper files:
 #### 6. expand your sequenzer (optional)
 
 <img src="./images/image-20210620193109006.png" alt="image-20210620193109006" style="zoom:80%;" />
-
-
-
-
-
-
-
