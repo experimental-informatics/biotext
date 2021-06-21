@@ -8,7 +8,9 @@ Getting Pd from: http://msp.ucsd.edu/software.html or from the Pure Data communi
 
 **Linux** (or FreeBSD): In some Linux installations you can download Pd via "apt-get install puredata" or "dnf install puredata"; otherwise you can download the source and compile it as described in INSTALL.txt.
 
+
 **Apple macOS**: Pd binaries are distributed as a "tar.gz" file. The web browser will probably download this archive into your Downloads folder. Double click to extract the archived Mac app which you can then run and/or drag into your Applications folder.
+
 
 **Microsoft Windows**: Pd binaries are distributed as a self-extracting executable or as a "zip" file.
 
