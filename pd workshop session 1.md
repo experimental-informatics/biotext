@@ -25,10 +25,15 @@ As an project, Pure Data is a community effort and is continuously being expande
 # what is FLOSS?
 
 ![Bildschirmfoto_2021-06-20_16-22-17](./images/Bildschirmfoto_2021-06-20_16-22-17.png)
+----
 
-<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  width="780" align="left" />
+<img src="./images/Bildschirmfoto_2021-06-20_16-27-11.png" alt="Bildschirmfoto_2021-06-20_16-27-11"  />
 
----
+<img src="./images/"/>
+
+
+
+----
 
 # what is digital audio?
 
@@ -213,7 +218,7 @@ some more Books & helper files:
 
 #### 4. stop at a specific number
 
-<img src="./images/image-20210620190903086.png" alt="image-20210620190903086" width="300" />
+<img src="./images/image-20210620190903086.png" alt="image-20210620190903086" width="200" />
 
 #### 5. build a simple 8-tone sequenzer 
 
