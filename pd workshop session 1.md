@@ -14,7 +14,7 @@
     + [we have 2 different modes of working...:](#we-have-2-different-modes-of-working-)
     + [objects we need today](#objects-we-need-today)
     + [what else do we need?](#what-else-do-we-need-)
-      - [the ASCII-Table:<img src="./images/image-20210620170353842.png" alt="image-20210620170353842" style="zoom:67%;" />](#the-ascii-table--img-src---images-image-20210620170353842png--alt--image-20210620170353842--style--zoom-67------)
+      - [ASCII-Table](#the-ascii-table--img-src---images-image-20210620170353842png--alt--image-20210620170353842--style--zoom-67------)
     + [our first program (patch)](#our-first-program--patch-)
     + [our second program (patch)](#our-second-program--patch-)
   * [example works, based on that program](#example-works--based-on-that-program)
@@ -31,9 +31,6 @@
       - [4. stop at a specific number](#4-stop-at-a-specific-number)
       - [5. build a simple 8-tone sequenzer](#5-build-a-simple-8-tone-sequenzer)
       - [6. expand your sequenzer (optional)](#6-expand-your-sequenzer--optional-)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 Pd, a free real-time computer music system.
 
