@@ -18,8 +18,8 @@
     + [our first program (patch)](#our-first-program--patch-)
     + [our second program (patch)](#our-second-program--patch-)
   * [example works, based on that program](#example-works--based-on-that-program)
-    + [ascii-piano (Biotext_Semesterapparat/pd-workshop tmka/keyboardpiano.pd)](#ascii-piano--biotext-semesterapparat-pd-workshop-tmka-keyboardpianopd-)
-    + [article_5 (Biotext_Semesterapparat/pd-workshop tmka/article-5/article_5.pd)](#article-5--biotext-semesterapparat-pd-workshop-tmka-article-5-article-5pd-)
+    + [ascii-piano](#ascii-piano)
+    + [article_5](#article-5)
 - [little helpers...:](#little-helpers-)
   * [Documentation and resources](#documentation-and-resources)
 - [Homework for next pd-workshop-session](#homework-for-next-pd-workshop-session)
@@ -152,28 +152,24 @@ Pd has also a number of GUI objects to graphically control the patch and improve
 
 
 ### our first program (patch)
-
+[01_hello-world.pd](https://github.com/experimental-informatics/biotext/blob/master/01_hello-world.pd)
 <img src="./images/image-20210620171044627.png" alt="image-20210620171044627" width="250" /><img src="./images/image-20210620171130727.png" alt="image-20210620171130727" width="250" /><img src="./images/image-20210620171213897.png" alt="image-20210620171213897" width="250" /><img src="./images/Bildschirmfoto_2021-06-20_17-13-48.png" width="250" />
 
 
 ### our second program (patch)
-
+[02_make-sound-with-key-object.pd](https://github.com/experimental-informatics/biotext/blob/master/02_make-sound-with-key-object.pd)
 <img src="./images/image-20210620172020612.png" alt="image-20210620172020612" width="250" /><img src="./images/image-20210620172046642.png" alt="image-20210620172046642" width="250" /><img src="./images/image-20210620172111163.png" alt="image-20210620172111163" width="250" /><img src="./images/image-20210620172130905.png" alt="image-20210620172130905" width="250" />
 
 
 
 ## example works, based on that program
-
-**you'll find the codes into the Biotext-Semesterapparat**
-
-
-### ascii-piano (Biotext_Semesterapparat/pd-workshop tmka/keyboardpiano.pd)
-
+### ascii-piano
+[keyboardpiano.pd](https://github.com/experimental-informatics/biotext/blob/master/keyboardpiano.pd)
 ![image-20210620183302658](./images/image-20210620183302658.png)
 
 
 ### article_5 (Biotext_Semesterapparat/pd-workshop tmka/article-5/article_5.pd)
-
+[article-5](https://github.com/experimental-informatics/biotext/tree/master/article-5)
 controlling your muscles through your keyboard... 
 
 ```
@@ -196,9 +192,7 @@ controlling your muscles through your keyboard...
 
 you'll find a Video-documentaion of the performance here: https://noparts.org/whoami/#6
 
-the pd-patch, you'll find here: 
-
-* if you extract the zip-file, there is a patch in it calls *article_5.pd* < run & study it!
+there is a patch in the folder calls *article_5.pd* < run & study it!
 * the muscle-accelerator equipment we have in ground zero @ my office ... if you wanna experiment with it.
   * there is no propper documentation in it in how to connect to arduino and musce accelerator etc.
 
